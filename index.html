@@ -3,14 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Avengers Character Search</title>
         <link rel="stylesheet" href="styles.css">
         <script src="app.js"></script> 
     </head>
     <body>
-        <h1>
-            Avengers Character Search
-        </h1>
-        <button id="searchButton">Search</button> 
+        <header>
+            <h1>AVENGERS CHARACTER SEARCH</h1>
+        </header>
+        <main>
+            <label for="SearchBar">Search by Full Name or Alias</label>
+            <input type="text" id="SearchBar" placeholder="eg. Wanda Maximoff or Scarlett Witch">
+            <button id="searchButton">Search</button>
+            <h2>RESULT</h2>
+            <div id="result"></div>
+        </main> 
     </body>
 </html>
